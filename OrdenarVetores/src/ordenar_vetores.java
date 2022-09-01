@@ -48,5 +48,19 @@ public class ordenar_vetores {
 
             System.out.print("\t"+vetor[j]);
         }
+
+        System.out.println("\nDe um numero para pesquisa: ");
+        int n1= sc.nextInt();
+        int cont=0;
+
+        for (int j = 0; j < vetor.length; j++) {
+
+            if(n1==vetor[j]){
+                System.out.println("O mesmo numero se encontra na posicao: "+j);
+                cont++;
+            }
+
+        }
+            System.out.println("O numero é encontrado "+cont+" vez(es)");
     }
 }
