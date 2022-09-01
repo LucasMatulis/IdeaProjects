@@ -1,0 +1,52 @@
+import java.util.Random;
+import java.util.Scanner;
+
+public class ordenar_vetores {
+
+    public static void bubbleSort(int[] vetor) {
+        int aux = 0;
+
+        for (int i = 0; i < vetor.length-1; i++) {
+            for (int j = 0; j < vetor.length-i-1; j++) {
+
+                if (vetor[j] > vetor[j + 1]) {
+                    aux = vetor[j];
+                    vetor[j] = vetor[j + 1];
+                    vetor[j + 1] = aux;
+
+
+                }
+
+
+            }
+
+
+        }
+
+    }
+
+    public static void main(String[] args) {
+
+        Random random = new Random();
+        Scanner sc= new Scanner(System.in);
+
+        System.out.println("De o lenght do vetor: \n");
+        int n= sc.nextInt();
+
+        int vetor[]= new int[n];
+
+        for (int j = 0; j < vetor.length; j++) {
+
+            vetor[j]=random.nextInt(101);
+        }
+
+
+
+        bubbleSort(vetor);
+
+        for (int j = 0; j < vetor.length; j++) {
+
+            System.out.print("\t"+vetor[j]);
+        }
+    }
+}
