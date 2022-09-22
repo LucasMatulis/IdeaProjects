@@ -7,7 +7,7 @@ public class ordenar_vetores2 {
             for (int j = 0; j < vetor.length-i-1; j++) {
 
 
-                if(vetor[j]%2==0 && vetor[j] > vetor[j + 1]){
+                if(vetor[j]%2==0 && vetor[j+1]%2==0 && vetor[j] > vetor[j + 1]){
 
                     aux = vetor[j];
                     vetor[j] = vetor[j + 1];
