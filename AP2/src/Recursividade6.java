@@ -1,15 +1,12 @@
 import java.util.Scanner;
 
-public class Recursividade5 {
-
+public class Recursividade6 {
 
     public static int fibonacci(int n){
 
 
-        if(n>1) {
-
+        if(n>1)
             return fibonacci(n - 1) + fibonacci(n - 2);
-        }
         else
             return n;
 
@@ -25,8 +22,12 @@ public class Recursividade5 {
 
         System.out.println("De a posicao do numero que deseja na ordem: ");
         int n= sc.nextInt();
+        int n2=n;
 
-        System.out.println(fibonacci(n));
+        for(int i=0;i<=n2;i++) {
+            System.out.print(fibonacci(n)+"\t");
+            n--;
+        }
 
     }
 }
