@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AP2/src/AP2.iml" filepath="$PROJECT_DIR$/AP2/src/AP2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AP2/AP21.iml" filepath="$PROJECT_DIR$/AP2/AP21.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula1_AP/Aula1_AP.iml" filepath="$PROJECT_DIR$/Aula1_AP/Aula1_AP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExemplosFileReader/ExemplosFileReader.iml" filepath="$PROJECT_DIR$/ExemplosFileReader/ExemplosFileReader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExerciciosAP/ExerciciosAP.iml" filepath="$PROJECT_DIR$/ExerciciosAP/ExerciciosAP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/IdeaProjects.iml" filepath="$PROJECT_DIR$/.idea/IdeaProjects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RevisaoAP/RevisaoAP.iml" filepath="$PROJECT_DIR$/RevisaoAP/RevisaoAP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ex1/ex1.iml" filepath="$PROJECT_DIR$/ex1/ex1.iml" />
+    </modules>
+  </component>
+</project>
